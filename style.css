@@ -1,0 +1,357 @@
+/* Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Public Sans', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/* font-family: 'Lato', sans-serif; */
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EBECF0;
+}
+
+.main-section{
+    width: 210mm;
+    height: 297mm;
+    background-color: white;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+}
+
+.main-section .left-part{
+    width: 40%;
+    height: 100%;
+    background-color:   rgba(0, 0, 0, 0.35);
+    padding: 2.8rem;
+}
+
+.left-part .photo-container{
+    margin-bottom: 1.5rem;
+}
+
+.left-part .photo-container img{
+    width: 140px;
+    height:180px;
+     margin-top: -30px;
+    margin-left: 40px; 
+    border-radius: 50%;
+    border: 2px solid 	#00007f;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.title{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    padding: 0.6rem;
+    background-color: #444440;
+    color: white;
+    text-align: center;
+    margin: 1.4rem 0;
+}
+
+.contact-container{
+    margin-bottom: 0rem;
+}
+
+.contact-container .contact-list{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'Lato', sans-serif;
+    color: #444440;
+    font-size: 1rem;
+}
+
+.education-container{
+    margin: -10px 0 0 -0.5rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.education-container .course{
+    margin-bottom: 1rem;
+    color: #414042;
+}
+
+.education-container .education-title{
+    font-size: 1rem;
+    font-weight: 800;
+    margin-bottom: .3rem;
+}
+
+.education-container .college-name{
+    margin-bottom: 0.3rem;
+    font-weight: 600;
+
+}
+
+.education-container .education-date{
+    font-size: 0.9rem;
+}
+
+.skills-container .skill{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.6rem;
+    font-family: 'Lato', sans-serif;
+}
+.skills-container .skill .left-skill{
+    margin-left: -10px;
+}
+
+.skills-container .skill .right-skill .outer-layer{
+    background-color: #BBBBBB;
+    height:0.4rem;
+    width: 5rem;
+    border-radius: 0.4rem;
+    margin-left: -50px;
+}
+
+.skills-container .skill .right-skill .inner-layer{
+    background-color: #3D3D3D;
+    height: 100%;
+    border-radius: inherit;
+}
+
+.right-part{
+    padding: 2.8rem;
+}
+
+.left-part .banner{
+    font-family: 'Open Sans', sans-serif;
+    color:black;
+    margin-bottom: 2rem;
+}
+
+.left-part .banner .firstname{
+    font-size: 1.3rem;
+    text-align: center;
+
+}
+
+.right-part .banner .lastname{
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 0.5rem;
+    margin-top: -1rem;
+}
+
+.left-part .banner .position{
+    letter-spacing: 0.15rem;
+    margin-top: 0rem;
+    margin-left: 1rem;
+    font-size: 1.1rem;
+
+}
+
+.work-container{
+    margin-top: -50px;
+    margin-left: -0.5rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.work-container .work:not(:last-child){
+    margin-bottom: 1.8rem;
+}
+
+.work-container .work .job-date{
+    display: flex;
+    color: #4D4D4F;
+    margin-top : -10px;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem  ;
+    font-weight: 500;
+    line-height: 1.25rem;
+}
+
+.work-container .work .company-name{
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #4D4D4F;
+
+}
+
+.work-container .work .work-text{
+    color: #737373;
+    font-size: 0.8rem;
+    text-align: justify;
+    line-height: 1rem;
+}
+
+.references-container .references{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    font-family: 'Lato', sans-serif;
+    color: #4D4D4F;
+}
+
+.references-container .references .name{
+    font-weight: 800;
+    font-size: 1.1rem;
+}
+
+.references-container .references .company-name{
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+.references-container .references .phone{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    color: #414042;
+}
+.references-container .references .phone p{
+    margin: 0.4rem 0;
+}
+
+.references-container .references .phone .phone-text{
+    font-weight: 600;
+}
+
+.text-left{
+    text-align: left;
+}
+.title1{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 0.8rem;
+    /* text-transform: uppercase;
+    padding: 0.6rem;
+    background-color: #444440; */
+    /* color: white; */
+    text-align: left;
+    margin: -10px 0 0 -10px ;
+}
+.title2{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 0.8rem;
+    /* text-transform: uppercase;
+    padding: 0.6rem;
+    background-color: #444440; */
+     color: black; 
+    text-align: relative;
+    margin: -20px 0 0 0 ;
+}
+.circle{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Lato', sans-serif;
+    color:  black;
+    font-size: 0.3rem;
+}
+.course1{
+    font-size: 0.9rem;
+    margin-top: 0.4rem;
+}
+.education-container .education .education-text{
+    margin-top: -10px;
+    justify-content: space-between;
+    font-size: 1rem;
+    color: black;}
+.education-container .education{
+    display: flex;
+    color: #4D4D4F;
+    margin-top: -10px;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem  ;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+.title3{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 0.8rem;
+    justify-content: space-between;
+    line-height: 1.6rem;
+    /* text-transform: uppercase;
+    padding: 0.6rem;
+    background-color: #444440; */
+    text-align: relative;
+    margin-top: -5px;
+    margin-left: 10px;
+}
+.DownloadCV{
+    /* font-size: 2rem;
+    position: flex;
+    background: #212121;
+    padding:    10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin-top: 0px;
+    border-radius: 5px; */
+    position: relative;
+    background: #eff4fd;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: red;
+}
+.workex-container{
+    margin:-10px 0 0 -0.5rem;
+    font-family: 'Lato', sans-serif;
+}
+.project-container{
+    margin: -10px 0 0 -0.5rem;
+    font-family: 'Lato', sans-serif;
+}
+.project-container.project{
+    display: flex;
+    color: #4D4D4F;
+    text-align: relative;
+    margin-right:-100px;
+    font-size: 0.9rem  ;
+    font-weight: 500;
+    line-height: 1.4rem;
+}
+.language-container{
+    margin: -10px 0 0 -0.5rem;
+    font-family: 'Lato', sans-serif;
+}
+.activities-container{
+    margin: -10px 0 0 -0.5rem;
+    font-family: 'Lato', sans-serif;
+}
+.activities-container.activities{
+    display: flex;
+    color: #4D4D4F;
+    text-align: relative;
+    margin-right:-100px;
+    font-size: 0.9rem  ;
+    font-weight: 500;
+    line-height: 1.4rem;
+}
